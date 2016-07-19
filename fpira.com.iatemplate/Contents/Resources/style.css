@@ -7,9 +7,7 @@ html {
 .post-body {
   margin: 10px auto;
   padding: 15px;
-  width: 100%;
   max-width: 960px;
-  max-width: 45em;
   min-height: 500px;
 
   font-size: 18px;
@@ -21,6 +19,7 @@ html {
 
 @media screen and (max-width: 640px) {
   .post-body {
+    padding: 0 15px;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.3;
@@ -28,7 +27,7 @@ html {
 }
 
 .post-body blockquote {
-    margin: 1.8em .8em;
+    margin: 1.8em 0.8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
@@ -163,16 +162,25 @@ html {
   background-color: #eee;
 }
 
-.post-body code {
+.post-body pre code {
   font-family: 'Courier', monospace;
   font-size: 16px;
 
   background-color: #efefef;
-  padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  padding: 10px 10px 10px 12px;
   margin: 20px 0 20px 0;
   overflow: auto;
+}
+
+.post-body code {
+  background-color: #efefef;
+  padding: 2px 2px 2px 2px;
+  font-family: 'Courier', monospace;
+  font-size: 16px;
+}
+
+@media screen {
+  .post-body pre {
+    -webkit-overflow-scrolling: touch;
+  }
 }
