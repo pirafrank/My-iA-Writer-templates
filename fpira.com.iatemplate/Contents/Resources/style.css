@@ -1,0 +1,178 @@
+@import 'fonts.css';
+
+html {
+  background-color: white;
+}
+
+.post-body {
+  margin: 10px auto;
+  padding: 15px;
+  width: 100%;
+  max-width: 960px;
+  max-width: 45em;
+  min-height: 500px;
+
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #404040;
+}
+
+@media screen and (max-width: 640px) {
+  .post-body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+}
+
+.post-body blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  font-color: #333;
+  font-weight: normal;
+  color: #222;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .post-body h1,
+  .post-body h2,
+  .post-body h3,
+  .post-body h4,
+  .post-body h5,
+  .post-body h6 {
+    line-height: 1.4;
+  }
+}
+
+.post-body h1 {
+  font-size: 38px;
+  font-family: 'Merriweather', serif;
+  padding-top: 2em;
+  margin-bottom: 0.4em;
+  letter-spacing: -0.05em;
+  color: #333;
+  line-height: 1.2;
+}
+
+.post-body h2 {
+  font-size: 34px;
+}
+
+.post-body h3 {
+  font-size: 30px;
+}
+
+.post-body h4 {
+  font-size: 24px;
+  color: $gray;
+  line-height: 1.3;
+}
+
+.post-body p {
+  margin: 15px 0;
+}
+
+.post-body a {
+  color: #34a;
+  text-decoration: none;
+}
+
+.post-body a:hover,
+.post-body a:active {
+  color: #34a;
+  text-decoration: underline;
+}
+
+.post-body ul,
+.post-body ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+.post-body ul {
+  list-style-type: disc;
+}
+
+.post-body ol {
+  list-style-type: decimal;
+}
+
+.post-body ol ul,
+.post-body ul ol,
+.post-body ul ul,
+.post-body ol ol {
+  margin: 0;
+}
+
+.post-body ul ul,
+.post-body ol ul {
+  list-style-type: circle;
+}
+
+.post-body em,
+.post-body i {
+  font-style: italic;
+}
+
+.post-body strong,
+.post-body b {
+  font-weight: bold;
+}
+
+.post-body img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .post-body table {
+    overflow-x: auto;
+    display: block;
+  }
+}
+
+.post-body thead > tr > th {
+  background-color: #ccc;
+  font-weight: bold;
+  //color: $white;
+}
+
+.post-body th, td {
+  padding: 0.4em 1.4em 0.4em 1.4em;
+  text-align: left;
+}
+
+.post-body tbody > tr:nth-child(even) > td {
+  background-color: #eee;
+}
+
+.post-body code {
+  font-family: 'Courier', monospace;
+  font-size: 16px;
+
+  background-color: #efefef;
+  padding: 7px 7px 7px 10px;
+  border: 1px solid #ddd;
+  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
+  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  margin: 20px 0 20px 0;
+  overflow: auto;
+}
