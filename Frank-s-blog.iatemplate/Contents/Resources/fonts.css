@@ -1,34 +1,34 @@
 @font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/OpenSans-Light.ttf);
+    src: url(fonts/OpenSans-Light.ttf);
 }
 
 @font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(fonts/OpenSans-Regular.ttf);
+    src: url(fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(fonts/OpenSans-Italic.ttf);
+    src: url(fonts/OpenSans-Italic.ttf);
 }
 
 @font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/OpenSans-Bold.ttf);
+    src: url(fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
-    font-family: Fira Mono;
+    font-family: 'Fira Mono';
     font-style: normal;
     font-weight: 400;
-    src: local('Fira Mono'), local('FiraMono'), url(fonts/FiraMono-Regular.ttf);
+    src: url(fonts/FiraMono-Regular.ttf);
 }
