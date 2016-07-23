@@ -163,8 +163,8 @@ html {
 }
 
 .post-body pre code {
-  font-family: 'Courier', monospace;
-  font-size: 16px;
+  font-family: 'Fira Mono','Courier', monospace;
+  font-size: 14px;
 
   background-color: #efefef;
   padding: 10px 10px 10px 12px;
@@ -175,8 +175,8 @@ html {
 .post-body code {
   background-color: #efefef;
   padding: 2px 2px 2px 2px;
-  font-family: 'Courier', monospace;
-  font-size: 16px;
+  font-family: 'Fira Mono','Courier', monospace;
+  font-size: 14px;
 }
 
 @media screen {
