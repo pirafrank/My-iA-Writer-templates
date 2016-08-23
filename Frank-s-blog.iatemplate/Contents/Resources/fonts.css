@@ -32,3 +32,10 @@
     font-weight: 400;
     src: url(fonts/FiraMono-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/Lato-Bold.ttf);
+}

@@ -7,7 +7,7 @@ html {
 .post-body {
   margin: 10px auto;
   padding: 15px;
-  max-width: 960px;
+  max-width: 700px;
   min-height: 500px;
 
   font-size: 18px;
@@ -41,13 +41,53 @@ html {
 .post-body h4,
 .post-body h5,
 .post-body h6 {
+  font-family: 'Lato', sans-serif;
   font-color: #333;
-  font-weight: normal;
+  font-weight: 700;
   color: #222;
 
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
+}
+
+.post-body h1 {
+  font-size: 40px;
+}
+
+.post-body h1 > a {
+  color: inherit;
+}
+
+.post-body h2 {
+  font-size: 34px;
+}
+
+.post-body h3 {
+  font-size: 30px;
+}
+
+.post-body h4 {
+  font-size: 24px;
+  color: #666;
+  line-height: 1.3;
+}
+
+.post-body h5 { /* good for citations and to put some text in the spotlight */
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-color: #aaa;
+  color: #aaa;
+  font-size: 26px;
+  font-style: italic;
+  margin-right: 16%;
+  margin-left: 14%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 10px;
+  border-width: 0px 0px 0px 2px;
+  border-style: solid;
+  border-color: #666;
 }
 
 @media screen and (max-width: 640px) {
