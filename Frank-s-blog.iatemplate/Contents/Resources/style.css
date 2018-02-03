@@ -190,7 +190,7 @@ html {
 .post-body thead > tr > th {
   background-color: #ccc;
   font-weight: bold;
-  //color: $white;
+  /* color: #fff; */
 }
 
 .post-body th, td {
@@ -202,19 +202,26 @@ html {
   background-color: #eee;
 }
 
-.post-body pre code {
-  font-family: 'Fira Mono','Courier', monospace;
-  font-size: 14px;
-
+.post-body pre {
   background-color: #efefef;
   padding: 10px 10px 10px 12px;
   margin: 20px 0 20px 0;
   overflow: auto;
 }
 
-.post-body code {
+.post-body pre code {
+  font-family: 'Fira Mono','Courier', monospace;
+  font-size: 14px;
+
   background-color: #efefef;
-  padding: 2px 2px 2px 2px;
+  /* padding: 10px 10px 10px 12px;
+  margin: 20px 0 20px 0;
+  overflow: auto; */
+}
+
+.post-body code {
+  /* background-color: #efefef;
+  padding: 2px 2px 2px 2px; */
   font-family: 'Fira Mono','Courier', monospace;
   font-size: 14px;
 }
