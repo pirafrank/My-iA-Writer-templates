@@ -10,17 +10,21 @@
     <string>com.fpira.template.post</string>
     <key>CFBundleName</key>
     <string>Frank's blog (fpira.com)</string>
+    <key>CFBundlePackageType</key>
+    <string>BNDL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0.0</string>
+    <string>1.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array><string>MacOSX</string></array>
     <key>CFBundleVersion</key>
-    <string>2</string>
+    <string>1</string>
     <key>IATemplateDocumentFile</key>
-    <string>post</string>
+    <string>document</string>
     <key>IATemplateDescription</key>
-    <string>fpira.com post template.</string>
+    <string>fpira.com post template</string>
     <key>IATemplateAuthor</key>
     <string>Francesco Pira</string>
     <key>IATemplateAuthorURL</key>
-    <string>http://fpira.com</string>
+    <string>https://fpira.com</string>
 </dict>
 </plist>
